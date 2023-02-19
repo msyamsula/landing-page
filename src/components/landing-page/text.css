@@ -2,8 +2,10 @@
     display: grid;
     grid-template-columns: 1fr 5fr 5fr 1fr;
     grid-template-rows: 2fr 3fr;
-    height: 90vh;
+    height: 85vh;
     align-items: center;
+    background-color: #2F3038;
+
 }
 
 .text {
@@ -31,10 +33,28 @@
 
 .button button {
     width: 70%;
+    color: white;
+    background-color: #1762A7;
+    border-radius: 10px;
+    height: 15%;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.button button:hover {
+    font-weight: bold;
 }
 
 .image {
     grid-area: 1/2/3/3;
-    align-self: center;
-    text-align: center;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.image img{
+    width: 70%;
+    height: 80%;
 }

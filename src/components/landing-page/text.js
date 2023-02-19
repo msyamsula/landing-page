@@ -1,4 +1,5 @@
 import './text.css'
+import pp from './pp.png'
 
 function Text(props) {
 
@@ -7,7 +8,9 @@ function Text(props) {
 
     return (
         <div className="text-button-image">
-            <div className='image'>image</div>
+            <div className='image'>
+                <img src={pp} alt="logo"></img>
+            </div>
             <div className='text'>
                 <div>
                     <p>
@@ -17,7 +20,7 @@ function Text(props) {
                 </div>
             </div>
             <div className='button'>
-                <button>Projects</button>
+                <button>My Projects</button>
             </div>
         </div>
     );
