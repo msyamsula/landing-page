@@ -1,0 +1,40 @@
+.text-button-image {
+    display: grid;
+    grid-template-columns: 1fr 5fr 5fr 1fr;
+    grid-template-rows: 2fr 3fr;
+    height: 90vh;
+    align-items: center;
+}
+
+.text {
+    grid-area: 1/3/2/3;
+    text-align: center;
+    display: grid;
+    align-content: flex-end;
+    height: 100%;
+}
+
+.text span {
+    font-style: italic;
+    font-weight: bold;
+    color: aquamarine;
+}
+
+.button {
+    grid-area: 2/3/3/4;
+    display: grid;
+    height: 80%;
+    padding-top: 20%;
+    align-items: flex-start;
+    justify-items: center;
+}
+
+.button button {
+    width: 70%;
+}
+
+.image {
+    grid-area: 1/2/3/3;
+    align-self: center;
+    text-align: center;
+}
