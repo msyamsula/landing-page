@@ -1,6 +1,14 @@
-.landing-page{
+.landing-page {
     height: 100vh;
     width: 100vw;
     color: white;
-    overflow: hidden;
+    /* overflow: hidden; */
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    scroll-behavior: smooth;
 }

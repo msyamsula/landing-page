@@ -1,10 +1,8 @@
-import './text.css'
+import './pageOne.css'
 import pp from './pp.png'
 
-function Text(props) {
+function PageOne(props) {
 
-    // let text = `Hello, my name is Muhammad Syamsul Arifin. Thanks for visiting my web. 
-    // This is a place where I put my creativity as a software engineer and document some of my projects`
 
     return (
         <div className="text-button-image">
@@ -20,10 +18,12 @@ function Text(props) {
                 </div>
             </div>
             <div className='button'>
-                <button>My Projects</button>
+                <a href='#page-2'>
+                    <button>My Projects</button>
+                </a>
             </div>
         </div>
     );
 }
 
-export default Text;
+export default PageOne;
